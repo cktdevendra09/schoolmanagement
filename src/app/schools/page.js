@@ -32,7 +32,7 @@ export default function Schools (){
 
         <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16 lg:px-20">      
           {schoolData.map((school) => 
-            <SchoolUi data = {school}/> 
+            <SchoolUi data = {school} key={school.id} /> 
           )}
         </div>
       </div>
