@@ -17,7 +17,7 @@ export default function NewSchool () {
         // console.log(name+email+address+city+state+contact);
         
         
-        let response = await fetch('http://localhost:3000/api/schools',{
+        let response = await fetch('api/schools',{
           method:"POST",
           body:JSON.stringify({
             name:name,
