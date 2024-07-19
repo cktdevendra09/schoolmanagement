@@ -17,7 +17,7 @@ export default function NewSchool () {
         // console.log(name+email+address+city+state+contact);
         
         
-        let response = await fetch('api/schools',{
+        let response = await fetch('https://schoolmanagement-rubf.vercel.app/api/schools',{
           method:"POST",
           body:JSON.stringify({
             name:name,
