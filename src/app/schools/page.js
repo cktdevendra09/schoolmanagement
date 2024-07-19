@@ -25,7 +25,7 @@ export default function Schools (){
 
         <div className="mb-10 md:mb-16">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Most Recent Schools</h2>
-          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">"Education is the foundation of all we do in life. It shapes who we are and what we aspire to be." - <strong>Julie Payette</strong></p>
+          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Education is the foundation of all we do in life. It shapes who we are and what we aspire to be. - <strong>Julie Payette</strong></p>
           
           
         </div>
